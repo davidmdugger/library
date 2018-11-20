@@ -1,0 +1,22 @@
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.table-wrapper .table-header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-wrapper .table-header > div {
+  flex: 1;
+}
+
+.table-wrapper .table-row {
+  display: flex;
+}
+
+.table-wrapper .table-row > div {
+  flex: 1;
+}
